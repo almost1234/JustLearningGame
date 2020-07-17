@@ -9,6 +9,9 @@ TagManager:
   - Wall
   - Cover
   - Floor
+  - eye
+  - Pathing
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -24,7 +27,7 @@ TagManager:
   - TableArea
   - FloorArea
   - PlayerArea
-  - 
+  - GhostArea
   - 
   - 
   - 

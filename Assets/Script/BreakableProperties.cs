@@ -50,7 +50,6 @@ public class BreakableProperties : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("The name of the collision is " + collision.tag);
         if (collision.gameObject.tag == "Player")
         {
             Durability();

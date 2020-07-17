@@ -14,8 +14,6 @@ public class PlayerSanity : MonoBehaviour
         {
             RegainSanity();
         }
-
-        Debug.Log("SANITY NOW IS " + sanityMeter.ToString());
     }
     public void DecreaseSanity(int amountDecrease) 
     {
